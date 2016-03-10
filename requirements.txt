@@ -47,6 +47,7 @@ qiniu==7.0.5
 #guppy
 
 django-chartit==0.1
+django-statsd-mozilla==0.3.16
 
 ##########extra package(not install in the virtualenv)##########
 #virtualenv==1.8.2
@@ -57,3 +58,4 @@ django-chartit==0.1
 #django-celery==3.0.10
 #kombu==2.4.7
 pyExcelerator==0.6.4.1
+XlsxWriter==0.8.4
