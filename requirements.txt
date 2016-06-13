@@ -53,3 +53,4 @@ XlsxWriter==0.8.4
 django-qiniu-storage==2.3.0
 numpy==1.11.0
 django-tagging==0.4.3
+Markdown==2.6.6
