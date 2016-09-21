@@ -1,6 +1,8 @@
 from ubuntu:14.04
 add sources.list.trusty /etc/apt/sources.list
-run apt-get update;apt-get install -y gcc libxml2-dev libxslt1-dev python-dev libmysqld-dev libjpeg-dev python-pip supervisor git
+run apt-get update
+run apt-get install -y gcc libxml2-dev libxslt1-dev python-dev libmysqld-dev python-pip supervisor git 
+run apt-get install -y libtiff4-dev libjpeg-dev libjpeg8-dev zlib1g-dev libfreetype6-dev liblcms1-dev libwebp-dev
 run pip install -i http://pypi.oneapm.com/simple --upgrade blueware
 run pip install -i http://pypi.oneapm.com/simple --upgrade oneapm-ci-sdk 
 add requirements.txt /tmp/requirements.txt
