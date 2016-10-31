@@ -1,5 +1,6 @@
 from ubuntu:14.04
 add sources.list.trusty /etc/apt/sources.list
+add hosts /etc/hosts
 run apt-get update
 run apt-get install -y gcc libxml2-dev libxslt1-dev python-dev libmysqld-dev python-pip supervisor git 
 run apt-get install -y libtiff4-dev libjpeg-dev libjpeg8-dev zlib1g-dev libfreetype6-dev liblcms1-dev libwebp-dev
