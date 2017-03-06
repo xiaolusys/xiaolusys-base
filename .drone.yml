@@ -5,7 +5,7 @@ publish:
     email: $$DOCKER_EMAIL
     registry: registry.aliyuncs.com
     repo: xiaolu-img/xiaolusys-base
-    file: Dockerfile
+    file: Dockerfile.Xiaolusys
     mirror: https://n5fb0zgg.mirror.aliyuncs.com
     tag: $$COMMIT
     branch: xiaolusys
