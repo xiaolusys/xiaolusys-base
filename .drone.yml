@@ -8,7 +8,8 @@ publish:
     file: Dockerfile.Xiaolusys
     mirror: https://n5fb0zgg.mirror.aliyuncs.com
     tag: $$COMMIT
-    branch: xiaolusys
+    when:
+      branch: xiaolusys
   docker:
     username: $$DOCKER_USERNAME
     password: $$DOCKER_PASSWORD
@@ -18,4 +19,5 @@ publish:
     file: Dockerfile.Euhosys
     mirror: https://n5fb0zgg.mirror.aliyuncs.com
     tag: $$COMMIT
-    branch: euhosys
+    when:
+      branch: euhosys
